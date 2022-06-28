@@ -22,6 +22,8 @@ if __name__ == '__main__':
     parser.add_argument('--pretrained_model_path', type=str, default=None)
     parser.add_argument('--output_model_path', type=str, default='vit-t-classifier-from_scratch.pt')
 
+    print('test')
+
     args = parser.parse_args()
 
     setup_seed(args.seed)
